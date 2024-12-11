@@ -107,3 +107,32 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width:768px) {
+    .landing h1 {
+        font-size: 3.5rem;
+      }
+    
+      .landing p {
+        margin-top: 20px;
+        font-size: 1.2rem;
+        width: 50%;
+      }
+}
+
+@media (max-width:400px) {
+    .navbar {
+        height: 8vh;
+      }
+
+      
+    .landing h1 {
+        font-size: 2rem;
+      }
+    
+      .landing p {
+        margin-top: 20px;
+        font-size: 1rem;
+        width: 60%;
+      }
+}
