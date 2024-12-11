@@ -1,11 +1,42 @@
+/* Reset some default styles for clarity */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+  }
+
+  /* Global styles */
 body {
-background-color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+.navbar {
+    width: 100vw;
+    border: 1px solid black;
+    color: white;
+    height: 5vh;
+    background-color: #333;
+    padding: 6px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.container {
+.nav-list {
+    list-style: none;
+  }
 
-}
+  .nav-list li {
+    display: inline;
+    margin: 0 10px;
+  }
 
-#container {
-
-}
+  .nav-list a{
+    text-decoration: none;
+    color: #fff;
+  }
+ 
+  
