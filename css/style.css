@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
   }
 
   /* Global styles */
@@ -65,3 +65,36 @@ body {
     margin-top: 20px;
     font-size: 1.5rem;
   }
+
+  /* Main Section styles */
+.main-content {
+    height: 100vh;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .main-content h2 {
+    margin-top: 30px;
+    color: white;
+  }
+
+  #about {
+    background-color: blue;
+  }
+  
+  #services {
+    background-color: pink;
+  }
+  
+  #portfolio {
+    background-color: red;
+  }
+  
+  #services {
+    background-color: orange;
+  }
+  
+  #contact {
+    background-color: teal;
+  }
+  
